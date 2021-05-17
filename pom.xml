@@ -16,6 +16,7 @@
         <module>shoppingmall_order</module>
         <module>shoppingmall_product</module>
         <module>shoppingmall_ware</module>
+        <module>shoppingmall_common</module>
     </modules>
 
 
