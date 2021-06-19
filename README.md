@@ -22,12 +22,20 @@
 - vi redis.conf 
 - appendonly yes (persistence)
 
-### mysql 
+### database
 - order
 - product
 - sale
 - ware
-- user
+- user 
+
+### module
+- common
+- coupon
+- member
+- order
+- product
+- ware
 
 ### 對應 Spring cloud
 - spring cloud eureka  註冊中心 => nacos
