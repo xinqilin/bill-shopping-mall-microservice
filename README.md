@@ -28,3 +28,14 @@
 - sale
 - ware
 - user
+
+### 對應 Spring cloud
+- spring cloud eureka  註冊中心 => nacos
+- spring cloud ribbon Load Balance
+- spring cloud feign http調用 
+- spring cloud config 配置中心
+- spring cloud zuul 網關
+- spring cloud hystrix 熔斷 => sentinel 
+- spring cloud gateway 路由 webflex
+- spring cloud sleuth 監控
+
