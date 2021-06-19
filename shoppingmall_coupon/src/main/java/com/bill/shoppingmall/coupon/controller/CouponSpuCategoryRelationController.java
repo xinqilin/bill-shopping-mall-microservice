@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bill.gulimall.coupon.entity.CouponSpuCategoryRelationEntity;
-import com.bill.gulimall.coupon.service.CouponSpuCategoryRelationService;
+import com.bill.shoppingmall.coupon.entity.CouponSpuCategoryRelationEntity;
+import com.bill.shoppingmall.coupon.service.CouponSpuCategoryRelationService;
 import com.bill.common.utils.PageUtils;
 import com.bill.common.utils.R;
 

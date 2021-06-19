@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bill.gulimall.coupon.entity.CouponHistoryEntity;
-import com.bill.gulimall.coupon.service.CouponHistoryService;
+import com.bill.shoppingmall.coupon.entity.CouponHistoryEntity;
+import com.bill.shoppingmall.coupon.service.CouponHistoryService;
 import com.bill.common.utils.PageUtils;
 import com.bill.common.utils.R;
 

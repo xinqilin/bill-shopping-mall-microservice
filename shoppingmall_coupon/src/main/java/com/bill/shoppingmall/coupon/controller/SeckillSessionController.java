@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.atguigu.gulimall.coupon.entity.SeckillSessionEntity;
-import com.atguigu.gulimall.coupon.service.SeckillSessionService;
-import com.atguigu.common.utils.PageUtils;
-import com.atguigu.common.utils.R;
+import com.bill.shoppingmall.coupon.entity.SeckillSessionEntity;
+import com.bill.shoppingmall.coupon.service.SeckillSessionService;
+import com.bill.common.utils.PageUtils;
+import com.bill.common.utils.R;
 
 
 
