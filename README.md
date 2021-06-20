@@ -1,6 +1,5 @@
 # bill-shopping-mall-microservice
 
-
 ### setup
 - vagrant
 - vagrant init ubuntu/xenial64
