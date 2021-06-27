@@ -1,4 +1,4 @@
-package com.bill.shoppingmall.shoppingmall_product;
+package com.bill.shoppingmall.product;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
