@@ -46,3 +46,34 @@
 - spring cloud gateway 路由 webflex
 - spring cloud sleuth 監控
 
+
+### Gateway works
+
+```
+                    Route、 Predicate
+     Client     => Spring Cloud Gateway  =>    Service 
+------------------------------------------------------------
+Gateway Client
+                 => Gateway Handler Mapping
+                 => Gateway WebHandler Handler
+                 => Filter
+                 => Filter
+                 =>  ...(無數個Filter)
+                                               Proxied Service 
+------------------------------------------------------------
+
+```
+
+Spring Cloud Example Reference : <a href="https://cloud.spring.io/spring-cloud-gateway/multi/multi_gateway-request-predicates-factories.html" alt="Spring Cloud"> 點我</a>
+
+
+```yaml
+    spring:
+      cloud:
+        gateway:
+          routes:
+          - id: after_route
+            uri: https://example.org
+            predicates:
+            - After=2017-01-20T17:42:47.789-07:00[America/Denver]
+```
